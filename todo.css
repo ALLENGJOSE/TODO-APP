@@ -1,0 +1,40 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(206, 205, 160);
+}
+
+
+#main-heading{
+  text-align: center;
+}
+
+.grid-container
+{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 200px 150px 100px ;
+  column-gap: 10px;
+  row-gap: 10px;;
+  margin-top: 10px;
+}
+
+#todo-input , #todo-date{
+  font-size: 15px;
+  padding: 7px;
+}
+
+.btn-delete{
+  background-color: rgb(112, 10, 10);
+  color:white;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.btn-todo{
+  background-color: green;
+  color:white;
+  border-radius: 5px;
+  font-size: large;
+  cursor: pointer;
+}
